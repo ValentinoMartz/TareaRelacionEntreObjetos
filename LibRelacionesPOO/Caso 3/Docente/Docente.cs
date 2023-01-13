@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace LibRelacionesPOO.Caso_3.Docente
 {
-    internal class Docente
+    public class Docente
     {
+        public Docente(List<Alumno> alumno) {
+            Alumno = alumno;
+        }
+
+        public List<Alumno> Alumnos { get; set; }
     }
 }
