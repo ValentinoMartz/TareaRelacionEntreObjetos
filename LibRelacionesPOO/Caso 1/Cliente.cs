@@ -8,11 +8,10 @@ namespace LibRelacionesPOO.Caso_1
 {
     public class Cliente
     {
-        public Cliente(string nombre, string password, Usuario usuario)
+        public Cliente(string nombre, string password)
         {
             Nombre = nombre;
             Password = password;
-            Usuario = usuario;
         }
 
         public string Nombre { get; set; }

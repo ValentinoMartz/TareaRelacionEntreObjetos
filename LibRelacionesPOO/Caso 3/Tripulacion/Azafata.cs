@@ -8,10 +8,6 @@ namespace LibRelacionesPOO.Caso_3.Tripulacion
 {
     public class Azafata
     {
-        public Azafata(Tripulacion tripulacion) {
-            Tripulacion = tripulacion;
-        }
-
         public Tripulacion Tripulacion { get; set; }
     }
 }

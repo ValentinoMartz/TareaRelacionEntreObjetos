@@ -8,14 +8,11 @@ namespace LibRelacionesPOO.Caso_3.DatosContacto
 {
     public class DatosContacto
     {
-
-
-       public DatosContacto(string domicilio, int telefono, string email, Cliente cliente, Empleado empleado) {
+       public DatosContacto(string domicilio, int telefono, string email) {
             Domicilio= domicilio;
             Telefono= telefono; 
             Email= email;
-            Cliente = cliente;
-            Empleado = empleado;
+       
         }
 
         public string Domicilio { get; set; }

@@ -7,12 +7,7 @@ using System.Threading.Tasks;
 namespace LibRelacionesPOO.Caso_2
 {
     public class Pedido
-    {
-        public Pedido(Cliente cliente)
-        {
-            Cliente = cliente;
-        }
-
-          public Cliente Cliente { get; set; }
+    { 
+        public Cliente Cliente { get; set; }
     }
 }
